@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 
 package:
   name: bob.ap
@@ -6,11 +6,11 @@ package:
 
 source:
   fn: bob.ap-{{ version }}.zip
-  url: https://pypi.python.org/packages/source/b/bob.ap/bob.ap-{{ version }}.zip
-  md5: 49f89a84c3c2cb20aa0ffa49d39415a7
+  url: https://pypi.io/packages/source/b/bob.ap/bob.ap-{{ version }}.zip
+  md5: fcef405964e88b85fbcaee7ff2210428
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
