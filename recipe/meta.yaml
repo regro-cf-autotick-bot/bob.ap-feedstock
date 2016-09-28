@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.1.0" %}
 
 package:
   name: bob.ap
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.ap-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.ap/bob.ap-{{ version }}.zip
-  md5: fcef405964e88b85fbcaee7ff2210428
+  md5: 83ffc84939b089fbc6b99792975d4599
 
 build:
   number: 0
@@ -48,7 +48,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.ap
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bob's audio processing utilities
 
