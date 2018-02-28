@@ -1,4 +1,4 @@
-{% set version = "2.1.1" %}
+{% set version = "2.1.5" %}
 
 package:
   name: bob.ap
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.ap-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.ap/bob.ap-{{ version }}.zip
-  md5: ca260ad6e655d48d6d4f4cbd386a905d
+  md5: ec43c01aa8b76df24dc78903c0b23482
 
 build:
   number: 0
